@@ -1,4 +1,22 @@
-/* Add your custom CSS here */
-.form-control {
-    background-color: #2b2b2b;
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --hover-color: #bdbdbd;
+    --disabled-color: rgba(255, 255, 255, 0.25);
+    --active-color: #9d9d9d;
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-dark, .navbar[data-bs-theme="dark"] {
+    --bs-navbar-color: var(--white);
+    --bs-navbar-hover-color: var(--hover-color);
+    --bs-navbar-disabled-color: var(--disabled-color);
+    --bs-navbar-active-color: var(--active-color);
+    --bs-navbar-brand-color: var(--white);
+    --bs-navbar-brand-hover-color: var(--hover-color);
+    --bs-navbar-toggler-border-color: var(--border-color);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.bg-dark {
+    background-color: var(--black) !important;
 }
