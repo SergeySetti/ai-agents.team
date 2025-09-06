@@ -1,0 +1,15 @@
+-e git+ssh://git@github.com/SergeySetti/ai-agents.team.git@951f72584846f0fc40ab321409dc0cd786081545#egg=ai_agents.team
+blinker==1.9.0
+click==8.2.1
+colorama==0.4.6
+Flask==3.1.2
+Flask-Injector==0.15.0
+gunicorn==23.0.0
+injector==0.22.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+packaging==25.0
+setuptools==80.9.0
+waitress==3.0.2
+Werkzeug==3.1.3
