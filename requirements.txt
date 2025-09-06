@@ -1,4 +1,4 @@
--e git+ssh://git@github.com/SergeySetti/ai-agents.team.git@951f72584846f0fc40ab321409dc0cd786081545#egg=ai_agents.team
+-e .
 blinker==1.9.0
 click==8.2.1
 colorama==0.4.6
