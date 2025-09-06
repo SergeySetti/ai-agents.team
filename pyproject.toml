@@ -1,0 +1,24 @@
+[project]
+name = "ai-agents.team"
+version = "0.1.0"
+description = "AI consulting agency web card "
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "Flask-Injector",
+    "Injector==0.22.0",
+    "waitress",
+]
+
+[project.scripts]
+run-prod = "ai_agents_team.run:run"
+run-dev = "ai_agents_team.run:dev_run"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ai_agents_team"]
+package-dir = {"" = "src"}
